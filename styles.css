@@ -6,15 +6,31 @@
 body{
     margin: 50px auto;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    
+    width: 80%;
     background-color: #e7ecef;
     text-align: center;
 }
 
 #header{
     border: 2px solid black;
-    max-width: 600px;
+    min-width: 600px;
     height: 150px;
     font-size: 30px;
+    margin-bottom: 20px;
 }
 
+
+.event-items{
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    height: 120px;
+}
+
+.event-items div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+
+}
