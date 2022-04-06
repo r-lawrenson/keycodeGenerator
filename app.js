@@ -1,13 +1,7 @@
+// this should do it
 document.addEventListener("keydown", (event) => {
-
-    let keyNumber = document.getElementById("keyNumber");
-    let codeDisplay = document.getElementById("codeDisplay");
-    let keyDisplay = document.getElementById("keyDisplay");
-    let whichDisplay = document.getElementById("whichDisplay");
-
-    keyNumber.innerHTML = `${event.keyCode}`;
-    codeDisplay.innerHTML = `${event.code}`;
-    keyDisplay.innerHTML = `${event.key}`;
-    whichDisplay.innerHTML = `${event.which}`;
-
-})
+    document.getElementById("keyNumber").innerHTML = `${event.keyCode}`;
+    document.getElementById("codeDisplay").innerHTML = `${event.code}`;
+    document.getElementById("keyDisplay").innerHTML = `${event.key}`;
+    document.getElementById("whichDisplay").innerHTML = `${event.which}`;
+});
